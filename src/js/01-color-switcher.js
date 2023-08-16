@@ -9,9 +9,9 @@ let id;
 function onStartClick() {
   id = setInterval(() => {
     document.body.style.backgroundColor = getRandomHexColor();
-    start.disabled = true;
-    stop.disabled = false;
   }, 1000);
+  start.disabled = true;
+  stop.disabled = false;
 }
 
 function onStopClick() {
