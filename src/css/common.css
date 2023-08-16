@@ -61,6 +61,10 @@ button:hover, button:focus {
   background-color: black;
 }
 
+button .disabled {
+  background-color: grey;
+}
+
 input {
   margin-top: 20px;
   margin-left: 15px;
