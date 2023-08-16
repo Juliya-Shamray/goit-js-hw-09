@@ -16,3 +16,53 @@ img {
   display: block;
   max-width: 100%;
 }
+
+.timer {
+  display: flex;
+  gap: 10px;
+}
+
+.field {
+  width: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.value {
+  font-size: 36px;
+}
+
+#datetime-picker {
+  padding: 5px 10px;
+}
+
+button {
+  padding: 10px 15px;
+  text-transform: uppercase;
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 10%;
+  margin-bottom: 20px;
+  transition: all 250ms linear;
+}
+
+button:hover, button:focus {
+  color: white;
+  background-color: black;
+}
+
+input {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 16px;
+}
